@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   const [query, setQuery] = useState(
-    "SELECT * FROM api_patient;"
+    "SELECT * FROM PATIENT;"
   );
 
   const [columns, setColumns] = useState([]);
